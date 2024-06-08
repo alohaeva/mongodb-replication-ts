@@ -1,12 +1,18 @@
 {
   "name": "mongodb-replication-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example implementation for mongodb replication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-infra": "sh set-up.sh"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mongodb",
+    "partitioning",
+    "docker",
+    "docker-compose",
+    "nodejs"
+  ],
+  "author": "Vladislav Evstignee",
   "license": "ISC"
 }
